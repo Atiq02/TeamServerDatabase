@@ -4,7 +4,7 @@
     <IncludeCompositeObjects>True</IncludeCompositeObjects>
     <TargetDatabaseName>PMIS_Test</TargetDatabaseName>
     <DeployScriptFileName>Database5.sql</DeployScriptFileName>
-    <TargetConnectionString>Data Source=ATIQ-PC;Persist Security Info=True;User ID=sa;Pooling=False;MultipleActiveResultSets=False;Connect Timeout=60;Encrypt=False;TrustServerCertificate=True</TargetConnectionString>
+    <TargetConnectionString>Data Source=192.168.3.66;Persist Security Info=True;User ID=sa;Pooling=False;MultipleActiveResultSets=False;Connect Timeout=60;Encrypt=False;TrustServerCertificate=True</TargetConnectionString>
     <BlockOnPossibleDataLoss>True</BlockOnPossibleDataLoss>
     <ProfileVersionNumber>1</ProfileVersionNumber>
   </PropertyGroup>
