@@ -1,11 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <PropertyGroup>
-    <IncludeCompositeObjects>True</IncludeCompositeObjects>
-    <TargetDatabaseName>PMIS_Test</TargetDatabaseName>
-    <DeployScriptFileName>Database5.sql</DeployScriptFileName>
-    <TargetConnectionString>Data Source=192.168.3.66;Persist Security Info=True;User ID=sa;Password=Dohatec123;Pooling=False;MultipleActiveResultSets=False;Connect Timeout=60;Encrypt=False;TrustServerCertificate=True</TargetConnectionString>
-    <BlockOnPossibleDataLoss>True</BlockOnPossibleDataLoss>
-    <ProfileVersionNumber>1</ProfileVersionNumber>
-  </PropertyGroup>
+	<PropertyGroup>
+		<IncludeCompositeObjects>True</IncludeCompositeObjects>
+		<BlockWhenDriftDetected>False</BlockWhenDriftDetected>
+		<RegisterDataTierApplication>False</RegisterDataTierApplication>
+		<BlockOnPossibleDataLoss>True</BlockOnPossibleDataLoss>
+		<GenerateSmartDefaults>True</GenerateSmartDefaults>
+		<TargetDatabaseName>PMIS_Test</TargetDatabaseName>
+		<DeployScriptFileName>Database5.sql</DeployScriptFileName>
+		<TargetConnectionString>Data Source=192.168.3.66;Persist Security Info=True;User ID=sa;Password=Dohatec123;Pooling=False;MultipleActiveResultSets=False;Connect Timeout=60;Encrypt=False;TrustServerCertificate=True</TargetConnectionString>
+		<BlockOnPossibleDataLoss>True</BlockOnPossibleDataLoss>
+		<ProfileVersionNumber>1</ProfileVersionNumber>
+	</PropertyGroup>
 </Project>
