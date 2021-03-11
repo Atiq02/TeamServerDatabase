@@ -5,6 +5,7 @@
     [last_name]  VARCHAR (255) NULL,
     [Address] VARBINARY(500) NULL, 
     [test] NVARCHAR(MAX) NULL, 
+    [PermanentAddres] NVARCHAR(MAX) NULL, 
     PRIMARY KEY CLUSTERED ([id] ASC)
 );
 
