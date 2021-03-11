@@ -5,7 +5,10 @@
     [department_code] VARCHAR (255) NULL,
     [department_head] VARCHAR (255) NULL,
     [department_name] VARCHAR (255) NULL,
-    [Location] VARCHAR(MAX) NULL, 
+    [Location]        VARCHAR (MAX) NULL,
+    [LocationCurrent] NVARCHAR (50) NULL,
     PRIMARY KEY CLUSTERED ([id] ASC)
 );
+
+
 
