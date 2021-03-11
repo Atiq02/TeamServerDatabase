@@ -61,6 +61,7 @@
     <Folder Include="Properties" />
     <Folder Include="dbo\" />
     <Folder Include="dbo\Tables\" />
+    <Folder Include="Scripts\" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\employee.sql" />
@@ -71,6 +72,7 @@
     <Build Include="dbo\Tables\roles.sql" />
     <Build Include="dbo\Tables\user_roles.sql" />
     <Build Include="dbo\Tables\users.sql" />
+    <None Include="Scripts\ScriptsIgnoredOnImport.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Database5_publish.xml" />
