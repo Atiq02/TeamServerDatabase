@@ -5,12 +5,7 @@ GO
 SET NUMERIC_ROUNDABORT OFF;
 GO
 
-IF N'$(__IsSqlCmdEnabled)' NOT LIKE N'True'
-    BEGIN
-        PRINT N'SQLCMD mode must be enabled to successfully execute this script.';
-        SET NOEXEC ON;
-    END
-GO
+
 
 USE [$(DatabaseName)];
 GO

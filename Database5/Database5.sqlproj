@@ -80,6 +80,5 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Database5_publish.xml" />
-    <None Include="Database5.publish.xml" />
   </ItemGroup>
 </Project>
